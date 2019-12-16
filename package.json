@@ -27,7 +27,10 @@
     "socket.io": "^2.3.0",
     "typescript": "3.7.2",
     "ws": "^7.2.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0", 
+    "@types/lodash": "^4.14.149",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/ws": "^6.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
