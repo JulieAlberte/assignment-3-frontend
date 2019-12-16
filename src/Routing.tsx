@@ -21,7 +21,7 @@ export class Routing extends React.Component<{}, IState> {
             scores: []
         };
     }
-    ws = new WebSocket('https://assignment-3-backend.herokuapp.com/');
+    ws = new WebSocket('wss://assignment-3-backend.herokuapp.com/');
 
     componentDidMount() {
         this.ws.onopen = () => {
